@@ -116,16 +116,16 @@
                     <label for="Test">Activation Payment Options!</label>
                     <div class="form-group-relative">
                         <select name="" class="form-control select-option">
-                            <option value="1">*Payeer Wallet *Price:$75</option>
-                            <option value="2">*Perfect Money *Price:$75</option>
-                            <option value="3">*Jeton Wallet *Price:$75</option>
-                            <option value="4">*Webmoney Wallet *Price:$75</option>
-                            <option value="5">*Coinbase Wallet *Price:$75</option>
+                  <option value="PAYEER">*Payeer Wallet *Price:$75</option>
+                            <option value="PERFECT">*Perfect Money *Price:$75</option>
+                            
+                            <option value="WEB">*Webmoney Wallet *Price:$75</option>
+                            <option value="COİN">*Coinbase Wallet *Price:$75</option>
               
-                            <option value="6">*Usdt Tether Trc20 *Price:75 Usdt</option>
-                            <option value="7">*Usdt Tether Bep20 *Price:75 Usdt</option>
-                            <option value="8">*Bitcoin -BTC NETWORK *Price: 0.004 Btc</option>
-                            <option value="9">*Ethereum -ERC20 NETWORK *Price: 0.75 eth</option>
+                            <option value="TRC20">*Usdt Tether Trc20 *Price:75 Usdt</option>
+                            <option value="BEP20">*Usdt Tether Bep20 *Price:75 Usdt</option>
+                            <option value="BTC">*Bitcoin -BTC NETWORK *Price: 0.004 Btc</option>
+                            <option value="ETH">*Ethereum -ERC20 NETWORK *Price: 0.75 eth</option>
                            
 
  
@@ -210,14 +210,14 @@
     <script>
         // Burası bir alt menü oluşturmayı sağlar "1" seçilen valueyi belirler
         const subOptions = {
-            "1": [
+           "PAYEER": [
                 {
                     value: "P1054349435",
                     label: "P1054349435"
                 },
                 
             ],
-            "2": [
+            "PERFECT": [
                 {
                     value: "U30353829",
                     label: "U30353829"
@@ -230,14 +230,14 @@
 
 
 
- "4": [
+ "WEB": [
                 {
                     value: "Z365873332816",
                     label: "Z365873332816"
                 },
                 
             ],
- "5": [
+ "COİN": [
                 {
                     value: "trb935@gmail.com",
                     label: "trb935@gmail.com"
@@ -245,7 +245,7 @@
                 
             ],
 
- "6": [
+ "TRC20": [
                 {
                     value: "TKscrX4uNyGQJwpub8BrWbdvWqPMghD8No",
                     label: "TKscrX4uNyGQJwpub8BrWbdvWqPMghD8No"
@@ -256,7 +256,7 @@
 
 
 
- "7": [
+ "BEP20": [
                 {
                     value: "0x9ed0a5b8fb07a0e72e13fe8bac618d2e8c8b2163",
                     label: "0x9ed0a5b8fb07a0e72e13fe8bac618d2e8c8b2163"
@@ -264,7 +264,7 @@
                 
             ],
 
- "8": [
+ "BTC": [
                 {
                     value: "1Hsx9R9u82XrFRazn55nHTUuXs8BJd8PM8",
                     label: "1Hsx9R9u82XrFRazn55nHTUuXs8BJd8PM8"
@@ -273,7 +273,7 @@
             ],
 
 
- "9": [
+ "ETH": [
                 {
                     value: "0x9ed0a5b8fb07a0e72e13fe8bac618d2e8c8b2163",
                     label: "0x9ed0a5b8fb07a0e72e13fe8bac618d2e8c8b2163"
@@ -282,42 +282,8 @@
             ],
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         };
+
 
         const selectRef = $('.select-option');
         $('.btn-copy').on("click", function () {
