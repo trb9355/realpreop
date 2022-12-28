@@ -322,7 +322,7 @@
 
                         setTimeout(() => {
                             $alert.addClass('alert-danger').removeClass('alert-warning').html(`
-                                <strong>Error:</strong><br>Invalid payment transfer number. Your transfer code is the transfer number displayed in your wallet after payment..You must have paid and transferred with the above methods. Your payment transfer code is your unique transfer code.:Your invalid payment transfer code ▶️${inputTest}
+                                <strong>Error:</strong><br>Invalid payment transfer number. Your transfer code is the transfer number displayed in your wallet after payment..You must have paid and transferred with the above methods. Your payment transfer code is your unique transfer code.//Your invalid payment transfer code ▶:${inputTest}
                                 `);
                             form.toggleSubmitButtons(true);
                         }, 10000)
